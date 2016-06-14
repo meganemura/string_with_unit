@@ -1,21 +1,11 @@
 # StringWithUnit
-[![Build Status](https://travis-ci.org/meganemura/string_with_unit.svg?branch=master)](https://travis-ci.org/meganemura/string_with_unit)
+[![Gem Version](https://badge.fury.io/rb/string_with_unit.svg)](https://badge.fury.io/rb/string_with_unit) [![Build Status](https://travis-ci.org/meganemura/string_with_unit.svg?branch=master)](https://travis-ci.org/meganemura/string_with_unit)
 
 ## Installation
-
-Add this line to your application's Gemfile:
 
 ```ruby
 gem 'string_with_unit'
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install string_with_unit
 
 ## Usage
 
