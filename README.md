@@ -30,8 +30,22 @@ end
 # => "1 gem"
 # => "2 gems"
 
-# alias: Numeric#to_s_with_unit
+# alias: Integer#to_s_with_unit
 puts 101.to_s_with_unit('dalmatian', 'dalmatians')   # => "101 dalmatians"
+```
+
+### With ActiveSupport::Inflector
+
+```
+require 'active_support/inflector'
+(-2..2).each do |i|
+  puts i.to_string_with_unit('gem')  # Specify singular unit only
+end
+# => "-2 gems"
+# => "-1 gem"
+# => "0 gems"
+# => "1 gem"
+# => "2 gems"
 ```
 
 ## Contributing
