@@ -1,4 +1,5 @@
 # StringWithUnit
+[![Build Status](https://travis-ci.org/meganemura/string_with_unit.svg?branch=master)](https://travis-ci.org/meganemura/string_with_unit)
 
 ## Installation
 
