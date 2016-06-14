@@ -31,7 +31,7 @@ end
 # => "2 gems"
 
 # alias: Numeric#to_s_with_unit
-puts 101.to_string_with_unit('dalmatian', 'dalmatians')   # => "101 dalmatians"
+puts 101.to_s_with_unit('dalmatian', 'dalmatians')   # => "101 dalmatians"
 ```
 
 ## Contributing
