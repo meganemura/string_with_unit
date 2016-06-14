@@ -37,7 +37,7 @@ puts 101.to_s_with_unit('dalmatian', 'dalmatians')   # => "101 dalmatians"
 
 ### With ActiveSupport::Inflector
 
-```
+```ruby
 require 'active_support/inflector'
 (-2..2).each do |i|
   puts i.to_string_with_unit('gem')  # Specify singular unit only
