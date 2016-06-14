@@ -30,7 +30,7 @@ end
 # => "1 gem"
 # => "2 gems"
 
-# alias: Numeric#to_s_with_unit
+# alias: Integer#to_s_with_unit
 puts 101.to_s_with_unit('dalmatian', 'dalmatians')   # => "101 dalmatians"
 ```
 

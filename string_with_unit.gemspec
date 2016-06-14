@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["meganemura"]
   spec.email         = ["meganemura@users.noreply.github.com"]
 
-  spec.summary       = "Add Numeric#to_string_with_unit to express a number with singular/plural unit"
+  spec.summary       = "Add Integer#to_string_with_unit to express a number with singular/plural unit"
   spec.description   = spec.summary
   spec.homepage      = "https://github.com/meganemura/string_with_unit"
   spec.license       = "MIT"

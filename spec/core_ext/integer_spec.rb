@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe Numeric do
+describe Integer do
   describe "#to_string_with_unit" do
     it "expresses value with singular/plural unit" do
       expect(-2.to_string_with_unit("gem", "gems")).to eq("-2 gems")
