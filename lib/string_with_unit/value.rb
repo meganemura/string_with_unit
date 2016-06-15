@@ -18,7 +18,7 @@ module StringWithUnit
     end
 
     def singular_number?
-      value.abs == 1
+      value == 1
     end
 
     def plural_unit
