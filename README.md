@@ -16,7 +16,7 @@ require 'string_with_unit'
   puts i.to_string_with_unit('gem', 'gems')  # singular unit, plural unit
 end
 # => "-2 gems"
-# => "-1 gem"
+# => "-1 gems"
 # => "0 gems"
 # => "1 gem"
 # => "2 gems"
@@ -35,7 +35,7 @@ require 'active_support/inflector'
   puts i.to_string_with_unit('gem')  # Specify singular unit only
 end
 # => "-2 gems"
-# => "-1 gem"
+# => "-1 gems"
 # => "0 gems"
 # => "1 gem"
 # => "2 gems"
